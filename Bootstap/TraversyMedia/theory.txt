@@ -1,0 +1,91 @@
+FOR NAVBAR
+
+navbar -> to create navbar
+navbar-expand-lg -> hamburger breakout at screen width of lg type
+bg-dark -> for dark UI
+navbar-dark -> for lighter text color
+py-3 -> padding on the y axis
+fixed-top ->  Position an element at the top of the viewport, from edge to edge
+
+container -> for margin padding
+navbar-brand -> for logo in navbar
+navbar-toggler -> inside this you place a toggler-icon
+navbar-toggler-icon -> produces hamburger for toggling
+
+collapse navbar-collapse -> put elements that get collapsed inside navbar when the screen width is narrow
+
+FOR SHOWCASE
+
+text-light -> white colored text
+p-5 -> p is for padding, max is 5, min is 0 (pt-padding-top, pb, pl, pr and so on)
+p-lg-0 
+pt-lg-5 
+text-center -> center text
+text-sm-start -> align items to left at sm breakout point
+
+d-flex -> to make the displayed items in flex style (here d means display)
+d-sm-flex -> display flex as long as the screen is not in width size
+align-items-center 
+justify-content-between
+text-warning -> yellow text
+
+img-fluid -> img stays inside container
+w-50 -> 50% of original size
+
+lead -> makes text bigger
+
+btn -> used for buttons
+btn-primary -> blue colored buttons
+btn-lg -> bigger button than default
+
+my-4 -> margin in the y axis
+d-none d-sm-block -> display none, and img should appear when the screen is wider than sm
+
+FOR NEWSLETTER
+
+bg-primary -> primary denotes blue color
+d-md-flex -> display flex when the breakout point is at md
+justify-content-between 
+align-items-center
+
+mb-3 mb-md-0 -> mrgin bottom 3 in general then 0 when breakout point is at md
+input-group -> for inputs
+form-control -> 
+
+FOR BOXES
+row -> for grid template
+col -> for items inside grid div
+col-md -> grid align only if wider than md breakpoint
+text-center -> center align
+g-4 -> for gaps between cards when they are in mobile view
+
+card -> for cards
+card-title -> 
+card-text ->
+bi -> to indicate bootstrap icons
+bi-laptop -> icon of laptop
+h1 -> div which works as h1
+for using icons of bootstrap
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+FOR LEARN SECTION
+lead -> bigger text
+
+FOR QUESTION ACcORDION
+accordion -> for that accordian wala thing
+just pick the thing straight from bootstrap
+
+FOR INSTRUCTORS
+rounded-circle-> for roun images
+https://randomuser.me/api/portraits/men/11.jpg -> generates random images
+
+FOR Contact & Map
+list-group ->  for this kind of feature 
+list-group-flush -> for this kind of style
+list-group-item -> for items inside list-group
+fw-bold -> fw is for font weight
+
+<i class="bi bi-arrow-up-circle h1"></i> this icon takes you to the top of the page
